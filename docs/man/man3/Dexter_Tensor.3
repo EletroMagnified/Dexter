@@ -1,0 +1,153 @@
+.TH "Dexter::Tensor< T, N >" 3 "Sat Apr 11 2020" "Version 0.01" "Dexter" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dexter::Tensor< T, N >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <dxtrTensor\&.hxx>\fP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "typedef std::array< std::size_t, N > \fBuarr\fP"
+.br
+.ti -1c
+.RI "typedef std::unordered_map< std::size_t, T > \fBdat_map\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTensor\fP (T default_val=0)"
+.br
+.ti -1c
+.RI "\fBTensor\fP (const \fBuarr\fP &dims, T default_val=0)"
+.br
+.ti -1c
+.RI "\fB~Tensor\fP ()=default"
+.br
+.ti -1c
+.RI "std::size_t \fBn_elem\fP () const"
+.br
+.ti -1c
+.RI "\fBuarr\fP \fBidtoad\fP (const std::size_t &) const"
+.br
+.ti -1c
+.RI "\fBuarr\fP \fBidtoad_nocheck\fP (const std::size_t &) const"
+.br
+.ti -1c
+.RI "std::size_t \fBadtoid\fP (const \fBuarr\fP &) const"
+.br
+.ti -1c
+.RI "std::size_t \fBadtoid_nocheck\fP (const \fBuarr\fP &) const"
+.br
+.ti -1c
+.RI "T & \fBat\fP (std::size_t id)"
+.br
+.ti -1c
+.RI "T & \fBat_nocheck\fP (std::size_t id)"
+.br
+.ti -1c
+.RI "T & \fBat\fP (const \fBuarr\fP &address)"
+.br
+.ti -1c
+.RI "std::string \fBadtostr\fP (const \fBuarr\fP &) const"
+.br
+.ti -1c
+.RI "std::string \fBadtostr_nocheck\fP (const \fBuarr\fP &) const"
+.br
+.ti -1c
+.RI "std::string \fBidtostrad\fP (const std::size_t &) const"
+.br
+.ti -1c
+.RI "std::string \fBidtostrad_nocheck\fP (const std::size_t &) const"
+.br
+.ti -1c
+.RI "void \fBprint\fP () const"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBis_valid\fP (const std::size_t &id) const"
+.br
+.ti -1c
+.RI "bool \fBis_valid\fP (const \fBuarr\fP &address) const"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "T \fBm_default_val\fP"
+.br
+.ti -1c
+.RI "\fBuarr\fP \fBm_dims\fP"
+.br
+.ti -1c
+.RI "\fBdat_map\fP \fBm_data\fP"
+.br
+.in -1c
+.SH "Member Typedef Documentation"
+.PP 
+.SS "template<class T , std::size_t N> typedef std::unordered_map<std::size_t, T> \fBDexter::Tensor\fP< T, N >::\fBdat_map\fP"
+
+.SS "template<class T , std::size_t N> typedef std::array<std::size_t, N> \fBDexter::Tensor\fP< T, N >::\fBuarr\fP"
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "template<class T , std::size_t N> \fBDexter::Tensor\fP< T, N >::\fBTensor\fP (T default_val = \fC0\fP)"
+
+.SS "template<class T , std::size_t N> \fBDexter::Tensor\fP< T, N >::\fBTensor\fP (const \fBuarr\fP & dims, T default_val = \fC0\fP)"
+
+.SS "template<class T , std::size_t N> \fBDexter::Tensor\fP< T, N >::~\fBTensor\fP ()\fC [default]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "template<class T , std::size_t N> std::size_t \fBDexter::Tensor\fP< T, N >::adtoid (const \fBuarr\fP & addr) const"
+
+.SS "template<class T , std::size_t N> std::size_t \fBDexter::Tensor\fP< T, N >::adtoid_nocheck (const \fBuarr\fP & address) const"
+
+.SS "template<class T , std::size_t N> std::string \fBDexter::Tensor\fP< T, N >::adtostr (const \fBuarr\fP & addr) const"
+
+.SS "template<class T , std::size_t N> std::string \fBDexter::Tensor\fP< T, N >::adtostr_nocheck (const \fBuarr\fP & addr) const"
+
+.SS "template<class T , std::size_t N> T & \fBDexter::Tensor\fP< T, N >::at (const \fBuarr\fP & address)"
+
+.SS "template<class T , std::size_t N> T & \fBDexter::Tensor\fP< T, N >::at (std::size_t id)"
+
+.SS "template<class T , std::size_t N> T & \fBDexter::Tensor\fP< T, N >::at_nocheck (std::size_t id)"
+
+.SS "template<class T , std::size_t N> \fBDexter::Tensor\fP< T, N >::\fBuarr\fP \fBDexter::Tensor\fP< T, N >::idtoad (const std::size_t & id) const"
+
+.SS "template<class T , std::size_t N> \fBDexter::Tensor\fP< T, N >::\fBuarr\fP \fBDexter::Tensor\fP< T, N >::idtoad_nocheck (const std::size_t & id) const"
+
+.SS "template<class T , std::size_t N> std::string \fBDexter::Tensor\fP< T, N >::idtostrad (const std::size_t & id) const"
+
+.SS "template<class T , std::size_t N> std::string \fBDexter::Tensor\fP< T, N >::idtostrad_nocheck (const std::size_t & id) const"
+
+.SS "template<class T , std::size_t N> bool \fBDexter::Tensor\fP< T, N >::is_valid (const std::size_t & id) const\fC [private]\fP"
+
+.SS "template<class T , std::size_t N> bool \fBDexter::Tensor\fP< T, N >::is_valid (const \fBuarr\fP & address) const\fC [private]\fP"
+Validates the input address 
+.SS "template<class T , std::size_t N> std::size_t \fBDexter::Tensor\fP< T, N >::n_elem"
+
+.SS "template<class T , std::size_t N> void \fBDexter::Tensor\fP< T, N >::print"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "template<class T , std::size_t N> \fBdat_map\fP \fBDexter::Tensor\fP< T, N >::m_data\fC [private]\fP"
+
+.SS "template<class T , std::size_t N> T \fBDexter::Tensor\fP< T, N >::m_default_val\fC [private]\fP"
+
+.SS "template<class T , std::size_t N> \fBuarr\fP \fBDexter::Tensor\fP< T, N >::m_dims\fC [private]\fP"
+holds the number of dimensions as the vector size and entries hold the size of each dimension\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Dexter from the source code\&.

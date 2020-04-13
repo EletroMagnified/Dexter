@@ -1,0 +1,57 @@
+\indexentry{Dexter@{Dexter}|hyperpage}{7}
+\indexentry{Dexter@{Dexter}!entryWiseAdd@{entryWiseAdd}|hyperpage}{7}
+\indexentry{entryWiseAdd@{entryWiseAdd}!Dexter@{Dexter}|hyperpage}{7}
+\indexentry{Dexter@{Dexter}!entryWiseDiv@{entryWiseDiv}|hyperpage}{7}
+\indexentry{entryWiseDiv@{entryWiseDiv}!Dexter@{Dexter}|hyperpage}{7}
+\indexentry{Dexter@{Dexter}!entryWiseExp@{entryWiseExp}|hyperpage}{8}
+\indexentry{entryWiseExp@{entryWiseExp}!Dexter@{Dexter}|hyperpage}{8}
+\indexentry{Dexter@{Dexter}!entryWiseLog@{entryWiseLog}|hyperpage}{8}
+\indexentry{entryWiseLog@{entryWiseLog}!Dexter@{Dexter}|hyperpage}{8}
+\indexentry{Dexter@{Dexter}!entryWiseProd@{entryWiseProd}|hyperpage}{8}
+\indexentry{entryWiseProd@{entryWiseProd}!Dexter@{Dexter}|hyperpage}{8}
+\indexentry{Dexter@{Dexter}!entryWiseSub@{entryWiseSub}|hyperpage}{8}
+\indexentry{entryWiseSub@{entryWiseSub}!Dexter@{Dexter}|hyperpage}{8}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{9}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!dat\_map@{dat\_map}|hyperpage}{9}
+\indexentry{dat\_map@{dat\_map}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{9}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!uarr@{uarr}|hyperpage}{10}
+\indexentry{uarr@{uarr}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{10}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!Tensor@{Tensor}|hyperpage}{10}
+\indexentry{Tensor@{Tensor}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{10}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!Tensor@{Tensor}|hyperpage}{10}
+\indexentry{Tensor@{Tensor}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{10}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!````~Tensor@{$\sim$Tensor}|hyperpage}{10}
+\indexentry{````~Tensor@{$\sim$Tensor}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{10}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtoid@{adtoid}|hyperpage}{10}
+\indexentry{adtoid@{adtoid}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{10}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtoid\_nocheck@{adtoid\_nocheck}|hyperpage}{11}
+\indexentry{adtoid\_nocheck@{adtoid\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{11}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtostr@{adtostr}|hyperpage}{11}
+\indexentry{adtostr@{adtostr}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{11}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtostr\_nocheck@{adtostr\_nocheck}|hyperpage}{11}
+\indexentry{adtostr\_nocheck@{adtostr\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{11}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!at@{at}|hyperpage}{11}
+\indexentry{at@{at}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{11}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!at@{at}|hyperpage}{11}
+\indexentry{at@{at}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{11}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!at\_nocheck@{at\_nocheck}|hyperpage}{11}
+\indexentry{at\_nocheck@{at\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{11}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtoad@{idtoad}|hyperpage}{12}
+\indexentry{idtoad@{idtoad}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{12}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtoad\_nocheck@{idtoad\_nocheck}|hyperpage}{12}
+\indexentry{idtoad\_nocheck@{idtoad\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{12}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtostrad@{idtostrad}|hyperpage}{12}
+\indexentry{idtostrad@{idtostrad}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{12}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtostrad\_nocheck@{idtostrad\_nocheck}|hyperpage}{12}
+\indexentry{idtostrad\_nocheck@{idtostrad\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{12}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!n\_elem@{n\_elem}|hyperpage}{12}
+\indexentry{n\_elem@{n\_elem}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{12}
+\indexentry{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!print@{print}|hyperpage}{12}
+\indexentry{print@{print}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}|hyperpage}{12}
+\indexentry{Dexter/include/dxtrTensor.hxx@{Dexter/include/dxtrTensor.hxx}|hyperpage}{13}
+\indexentry{Dexter/main.cxx@{Dexter/main.cxx}|hyperpage}{14}
+\indexentry{main.cxx@{main.cxx}!main@{main}|hyperpage}{14}
+\indexentry{main@{main}!main.cxx@{main.cxx}|hyperpage}{14}
+\indexentry{main.cxx@{main.cxx}!Test1@{Test1}|hyperpage}{14}
+\indexentry{Test1@{Test1}!main.cxx@{main.cxx}|hyperpage}{14}
+\indexentry{Dexter/src/dxtrTensor.cxx@{Dexter/src/dxtrTensor.cxx}|hyperpage}{14}

@@ -1,0 +1,67 @@
+.TH "Dexter/include/dxtrTensor.hxx" 3 "Sat Apr 11 2020" "Version 0.01" "Dexter" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dexter/include/dxtrTensor.hxx
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <array>\fP
+.br
+\fC#include <vector>\fP
+.br
+\fC#include <unordered_map>\fP
+.br
+\fC#include <exception>\fP
+.br
+\fC#include <string>\fP
+.br
+\fC#include <sstream>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include 'dxtrTensor\&.txx'\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBDexter::Tensor< T, N >\fP"
+.br
+.ti -1c
+.RI "class \fBDexter::Tensor< T, N >\fP"
+.br
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBDexter\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "template<class T , std::size_t N> Tensor< T, N > \fBDexter::entryWiseAdd\fP (const Tensor< T, N > &lhs, const Tensor< T, N > &rhs)"
+.br
+.ti -1c
+.RI "template<class T , std::size_t N> Tensor< T, N > \fBDexter::entryWiseSub\fP (const Tensor< T, N > &lhs, const Tensor< T, N > &rhs)"
+.br
+.ti -1c
+.RI "template<class T , std::size_t N> Tensor< T, N > \fBDexter::entryWiseProd\fP (const Tensor< T, N > &lhs, const Tensor< T, N > &rhs)"
+.br
+.ti -1c
+.RI "template<class T , std::size_t N> Tensor< T, N > \fBDexter::entryWiseDiv\fP (const Tensor< T, N > &lhs, const Tensor< T, N > &rhs)"
+.br
+.ti -1c
+.RI "template<class T , std::size_t N> Tensor< T, N > \fBDexter::entryWiseExp\fP (const Tensor< T, N > &lhs, const Tensor< T, N > &rhs)"
+.br
+.ti -1c
+.RI "template<class T , std::size_t N> Tensor< T, N > \fBDexter::entryWiseLog\fP (const Tensor< T, N > &lhs, const Tensor< T, N > &rhs)"
+.br
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Dexter from the source code\&.

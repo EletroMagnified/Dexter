@@ -26,6 +26,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="template\dxtrTensor.txx" />
+    <None Include="template\dxtrTensor.txx">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

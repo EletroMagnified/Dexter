@@ -1,0 +1,266 @@
+\hypertarget{class_dexter_1_1_tensor}{}\doxysection{Dexter\+::Tensor$<$ T, N $>$ Class Template Reference}
+\label{class_dexter_1_1_tensor}\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+
+
+{\ttfamily \#include $<$dxtr\+Tensor.\+hxx$>$}
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::array$<$ std\+::size\+\_\+t, N $>$ \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}}
+\item 
+typedef std\+::unordered\+\_\+map$<$ std\+::size\+\_\+t, T $>$ \mbox{\hyperlink{class_dexter_1_1_tensor_a820e51fea8b5c2a560120b6e8a5ec506}{dat\+\_\+map}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dexter_1_1_tensor_a44b5e6068737e21ed841a9369cd905d5}{Tensor}} (T default\+\_\+val=0)
+\item 
+\mbox{\hyperlink{class_dexter_1_1_tensor_a4d8e1c0ba750a98c8fd9cc3e58f832c9}{Tensor}} (const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&dims, T default\+\_\+val=0)
+\item 
+\mbox{\hyperlink{class_dexter_1_1_tensor_a7208ed4888bf8fa5182ce705f2288541}{$\sim$\+Tensor}} ()=default
+\item 
+std\+::size\+\_\+t \mbox{\hyperlink{class_dexter_1_1_tensor_a3f38ed38b1468a989c720be8caea4542}{n\+\_\+elem}} () const
+\item 
+\mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \mbox{\hyperlink{class_dexter_1_1_tensor_a2163c6c2a0ea5e2ebccc03def78f25dc}{idtoad}} (const std\+::size\+\_\+t \&) const
+\item 
+\mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \mbox{\hyperlink{class_dexter_1_1_tensor_a12134a0b2eb23b3879430574bd29d924}{idtoad\+\_\+nocheck}} (const std\+::size\+\_\+t \&) const
+\item 
+std\+::size\+\_\+t \mbox{\hyperlink{class_dexter_1_1_tensor_a81500306f84fe0e84896f347d314d676}{adtoid}} (const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&) const
+\item 
+std\+::size\+\_\+t \mbox{\hyperlink{class_dexter_1_1_tensor_aebf56e3f7e4f32709b37d15cd9e2ff90}{adtoid\+\_\+nocheck}} (const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&) const
+\item 
+T \& \mbox{\hyperlink{class_dexter_1_1_tensor_abe4caca1a524d0e25eb0d1daecdbc8fe}{at}} (std\+::size\+\_\+t id)
+\item 
+T \& \mbox{\hyperlink{class_dexter_1_1_tensor_ae800a5d5e3e91f31a4d7191dcc719db7}{at\+\_\+nocheck}} (std\+::size\+\_\+t id)
+\item 
+T \& \mbox{\hyperlink{class_dexter_1_1_tensor_ab139a265f1e67d1d72cf3318755af434}{at}} (const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&address)
+\item 
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor_a607d8868a75e736c3bd768b0fab6ce25}{adtostr}} (const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&) const
+\item 
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor_a0aeaf4f416820ad5d83fd400daf6f094}{adtostr\+\_\+nocheck}} (const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&) const
+\item 
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor_a16514c9a543f319390fcc30bd5f6a9f5}{idtostrad}} (const std\+::size\+\_\+t \&) const
+\item 
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor_a2e77cb33344f6ea6b889907afab709ac}{idtostrad\+\_\+nocheck}} (const std\+::size\+\_\+t \&) const
+\item 
+void \mbox{\hyperlink{class_dexter_1_1_tensor_abb31441c0c5077a886723c1fcc15d656}{print}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_dexter_1_1_tensor_a7e5752b33cb80caf7b8694658c4668c6}{is\+\_\+valid}} (const std\+::size\+\_\+t \&id) const
+\item 
+bool \mbox{\hyperlink{class_dexter_1_1_tensor_a3493d28853b109e1c583b724cdd1116b}{is\+\_\+valid}} (const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&address) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{class_dexter_1_1_tensor_abbca20bc118b7c4ec3b28642d130f39a}{m\+\_\+default\+\_\+val}}
+\item 
+\mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \mbox{\hyperlink{class_dexter_1_1_tensor_a858e4b6630181dde219c7a37542ab3e9}{m\+\_\+dims}}
+\item 
+\mbox{\hyperlink{class_dexter_1_1_tensor_a820e51fea8b5c2a560120b6e8a5ec506}{dat\+\_\+map}} \mbox{\hyperlink{class_dexter_1_1_tensor_a3c2b53525c5b1a021b96e2573cda3f26}{m\+\_\+data}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a820e51fea8b5c2a560120b6e8a5ec506}\label{class_dexter_1_1_tensor_a820e51fea8b5c2a560120b6e8a5ec506}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!dat\_map@{dat\_map}}
+\index{dat\_map@{dat\_map}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{dat\_map}{dat\_map}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+typedef std\+::unordered\+\_\+map$<$std\+::size\+\_\+t, T$>$ \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::\mbox{\hyperlink{class_dexter_1_1_tensor_a820e51fea8b5c2a560120b6e8a5ec506}{dat\+\_\+map}}}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}\label{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!uarr@{uarr}}
+\index{uarr@{uarr}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{uarr}{uarr}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+typedef std\+::array$<$std\+::size\+\_\+t, N$>$ \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::\mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}}}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a44b5e6068737e21ed841a9369cd905d5}\label{class_dexter_1_1_tensor_a44b5e6068737e21ed841a9369cd905d5}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!Tensor@{Tensor}}
+\index{Tensor@{Tensor}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{Tensor()}{Tensor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+\mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::\mbox{\hyperlink{class_dexter_1_1_tensor}{Tensor}} (\begin{DoxyParamCaption}\item[{T}]{default\+\_\+val = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a4d8e1c0ba750a98c8fd9cc3e58f832c9}\label{class_dexter_1_1_tensor_a4d8e1c0ba750a98c8fd9cc3e58f832c9}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!Tensor@{Tensor}}
+\index{Tensor@{Tensor}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{Tensor()}{Tensor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+\mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::\mbox{\hyperlink{class_dexter_1_1_tensor}{Tensor}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&}]{dims,  }\item[{T}]{default\+\_\+val = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a7208ed4888bf8fa5182ce705f2288541}\label{class_dexter_1_1_tensor_a7208ed4888bf8fa5182ce705f2288541}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!````~Tensor@{$\sim$Tensor}}
+\index{````~Tensor@{$\sim$Tensor}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Tensor()}{~Tensor()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+\mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::$\sim$\mbox{\hyperlink{class_dexter_1_1_tensor}{Tensor}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a81500306f84fe0e84896f347d314d676}\label{class_dexter_1_1_tensor_a81500306f84fe0e84896f347d314d676}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtoid@{adtoid}}
+\index{adtoid@{adtoid}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{adtoid()}{adtoid()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+std\+::size\+\_\+t \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::adtoid (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&}]{addr }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{class_dexter_1_1_tensor_a81500306f84fe0e84896f347d314d676_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_dexter_1_1_tensor_aebf56e3f7e4f32709b37d15cd9e2ff90}\label{class_dexter_1_1_tensor_aebf56e3f7e4f32709b37d15cd9e2ff90}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtoid\_nocheck@{adtoid\_nocheck}}
+\index{adtoid\_nocheck@{adtoid\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{adtoid\_nocheck()}{adtoid\_nocheck()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+std\+::size\+\_\+t \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::adtoid\+\_\+nocheck (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&}]{address }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a607d8868a75e736c3bd768b0fab6ce25}\label{class_dexter_1_1_tensor_a607d8868a75e736c3bd768b0fab6ce25}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtostr@{adtostr}}
+\index{adtostr@{adtostr}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{adtostr()}{adtostr()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::adtostr (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&}]{addr }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a0aeaf4f416820ad5d83fd400daf6f094}\label{class_dexter_1_1_tensor_a0aeaf4f416820ad5d83fd400daf6f094}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!adtostr\_nocheck@{adtostr\_nocheck}}
+\index{adtostr\_nocheck@{adtostr\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{adtostr\_nocheck()}{adtostr\_nocheck()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::adtostr\+\_\+nocheck (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&}]{addr }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_ab139a265f1e67d1d72cf3318755af434}\label{class_dexter_1_1_tensor_ab139a265f1e67d1d72cf3318755af434}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!at@{at}}
+\index{at@{at}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+T \& \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::at (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&}]{address }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_abe4caca1a524d0e25eb0d1daecdbc8fe}\label{class_dexter_1_1_tensor_abe4caca1a524d0e25eb0d1daecdbc8fe}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!at@{at}}
+\index{at@{at}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+T \& \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::at (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_ae800a5d5e3e91f31a4d7191dcc719db7}\label{class_dexter_1_1_tensor_ae800a5d5e3e91f31a4d7191dcc719db7}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!at\_nocheck@{at\_nocheck}}
+\index{at\_nocheck@{at\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{at\_nocheck()}{at\_nocheck()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+T \& \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::at\+\_\+nocheck (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a2163c6c2a0ea5e2ebccc03def78f25dc}\label{class_dexter_1_1_tensor_a2163c6c2a0ea5e2ebccc03def78f25dc}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtoad@{idtoad}}
+\index{idtoad@{idtoad}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{idtoad()}{idtoad()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+\mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::\mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::idtoad (\begin{DoxyParamCaption}\item[{const std\+::size\+\_\+t \&}]{id }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{class_dexter_1_1_tensor_a2163c6c2a0ea5e2ebccc03def78f25dc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a12134a0b2eb23b3879430574bd29d924}\label{class_dexter_1_1_tensor_a12134a0b2eb23b3879430574bd29d924}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtoad\_nocheck@{idtoad\_nocheck}}
+\index{idtoad\_nocheck@{idtoad\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{idtoad\_nocheck()}{idtoad\_nocheck()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+\mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::\mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::idtoad\+\_\+nocheck (\begin{DoxyParamCaption}\item[{const std\+::size\+\_\+t \&}]{id }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a16514c9a543f319390fcc30bd5f6a9f5}\label{class_dexter_1_1_tensor_a16514c9a543f319390fcc30bd5f6a9f5}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtostrad@{idtostrad}}
+\index{idtostrad@{idtostrad}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{idtostrad()}{idtostrad()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::idtostrad (\begin{DoxyParamCaption}\item[{const std\+::size\+\_\+t \&}]{id }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a2e77cb33344f6ea6b889907afab709ac}\label{class_dexter_1_1_tensor_a2e77cb33344f6ea6b889907afab709ac}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!idtostrad\_nocheck@{idtostrad\_nocheck}}
+\index{idtostrad\_nocheck@{idtostrad\_nocheck}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{idtostrad\_nocheck()}{idtostrad\_nocheck()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+std\+::string \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::idtostrad\+\_\+nocheck (\begin{DoxyParamCaption}\item[{const std\+::size\+\_\+t \&}]{id }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a7e5752b33cb80caf7b8694658c4668c6}\label{class_dexter_1_1_tensor_a7e5752b33cb80caf7b8694658c4668c6}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!is\_valid@{is\_valid}}
+\index{is\_valid@{is\_valid}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{is\_valid()}{is\_valid()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+bool \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::is\+\_\+valid (\begin{DoxyParamCaption}\item[{const std\+::size\+\_\+t \&}]{id }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a3493d28853b109e1c583b724cdd1116b}\label{class_dexter_1_1_tensor_a3493d28853b109e1c583b724cdd1116b}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!is\_valid@{is\_valid}}
+\index{is\_valid@{is\_valid}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{is\_valid()}{is\_valid()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+bool \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::is\+\_\+valid (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \&}]{address }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+Validates the input address \mbox{\Hypertarget{class_dexter_1_1_tensor_a3f38ed38b1468a989c720be8caea4542}\label{class_dexter_1_1_tensor_a3f38ed38b1468a989c720be8caea4542}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!n\_elem@{n\_elem}}
+\index{n\_elem@{n\_elem}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{n\_elem()}{n\_elem()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+std\+::size\+\_\+t \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::n\+\_\+elem}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{class_dexter_1_1_tensor_a3f38ed38b1468a989c720be8caea4542_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_dexter_1_1_tensor_abb31441c0c5077a886723c1fcc15d656}\label{class_dexter_1_1_tensor_abb31441c0c5077a886723c1fcc15d656}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!print@{print}}
+\index{print@{print}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+void \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::print}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{class_dexter_1_1_tensor_abb31441c0c5077a886723c1fcc15d656_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a3c2b53525c5b1a021b96e2573cda3f26}\label{class_dexter_1_1_tensor_a3c2b53525c5b1a021b96e2573cda3f26}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!m\_data@{m\_data}}
+\index{m\_data@{m\_data}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{m\_data}{m\_data}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+\mbox{\hyperlink{class_dexter_1_1_tensor_a820e51fea8b5c2a560120b6e8a5ec506}{dat\+\_\+map}} \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::m\+\_\+data\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_abbca20bc118b7c4ec3b28642d130f39a}\label{class_dexter_1_1_tensor_abbca20bc118b7c4ec3b28642d130f39a}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!m\_default\_val@{m\_default\_val}}
+\index{m\_default\_val@{m\_default\_val}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{m\_default\_val}{m\_default\_val}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+T \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::m\+\_\+default\+\_\+val\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_dexter_1_1_tensor_a858e4b6630181dde219c7a37542ab3e9}\label{class_dexter_1_1_tensor_a858e4b6630181dde219c7a37542ab3e9}} 
+\index{Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}!m\_dims@{m\_dims}}
+\index{m\_dims@{m\_dims}!Dexter::Tensor$<$ T, N $>$@{Dexter::Tensor$<$ T, N $>$}}
+\doxysubsubsection{\texorpdfstring{m\_dims}{m\_dims}}
+{\footnotesize\ttfamily template$<$class T , std\+::size\+\_\+t N$>$ \\
+\mbox{\hyperlink{class_dexter_1_1_tensor_a8adfca70b5d2d635bde9b22666f70136}{uarr}} \mbox{\hyperlink{class_dexter_1_1_tensor}{Dexter\+::\+Tensor}}$<$ T, N $>$\+::m\+\_\+dims\hspace{0.3cm}{\ttfamily [private]}}
+
+holds the number of dimensions as the vector size and entries hold the size of each dimension. 

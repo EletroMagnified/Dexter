@@ -1,0 +1,109 @@
+\begin{theindex}
+
+  \item {$\sim$Tensor}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{10}
+
+  \indexspace
+
+  \item {adtoid}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{10}
+  \item {adtoid\_nocheck}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{11}
+  \item {adtostr}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{11}
+  \item {adtostr\_nocheck}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{11}
+  \item {at}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{11}
+  \item {at\_nocheck}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{11}
+
+  \indexspace
+
+  \item {dat\_map}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{9}
+  \item {Dexter}, \hyperpage{7}
+    \subitem {entryWiseAdd}, \hyperpage{7}
+    \subitem {entryWiseDiv}, \hyperpage{7}
+    \subitem {entryWiseExp}, \hyperpage{8}
+    \subitem {entryWiseLog}, \hyperpage{8}
+    \subitem {entryWiseProd}, \hyperpage{8}
+    \subitem {entryWiseSub}, \hyperpage{8}
+  \item {Dexter/include/dxtrTensor.hxx}, \hyperpage{13}
+  \item {Dexter/main.cxx}, \hyperpage{14}
+  \item {Dexter/src/dxtrTensor.cxx}, \hyperpage{14}
+  \item {Dexter::Tensor$<$ T, N $>$}, \hyperpage{9}
+    \subitem {$\sim$Tensor}, \hyperpage{10}
+    \subitem {adtoid}, \hyperpage{10}
+    \subitem {adtoid\_nocheck}, \hyperpage{11}
+    \subitem {adtostr}, \hyperpage{11}
+    \subitem {adtostr\_nocheck}, \hyperpage{11}
+    \subitem {at}, \hyperpage{11}
+    \subitem {at\_nocheck}, \hyperpage{11}
+    \subitem {dat\_map}, \hyperpage{9}
+    \subitem {idtoad}, \hyperpage{12}
+    \subitem {idtoad\_nocheck}, \hyperpage{12}
+    \subitem {idtostrad}, \hyperpage{12}
+    \subitem {idtostrad\_nocheck}, \hyperpage{12}
+    \subitem {n\_elem}, \hyperpage{12}
+    \subitem {print}, \hyperpage{12}
+    \subitem {Tensor}, \hyperpage{10}
+    \subitem {uarr}, \hyperpage{10}
+
+  \indexspace
+
+  \item {entryWiseAdd}
+    \subitem {Dexter}, \hyperpage{7}
+  \item {entryWiseDiv}
+    \subitem {Dexter}, \hyperpage{7}
+  \item {entryWiseExp}
+    \subitem {Dexter}, \hyperpage{8}
+  \item {entryWiseLog}
+    \subitem {Dexter}, \hyperpage{8}
+  \item {entryWiseProd}
+    \subitem {Dexter}, \hyperpage{8}
+  \item {entryWiseSub}
+    \subitem {Dexter}, \hyperpage{8}
+
+  \indexspace
+
+  \item {idtoad}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{12}
+  \item {idtoad\_nocheck}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{12}
+  \item {idtostrad}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{12}
+  \item {idtostrad\_nocheck}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{12}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cxx}, \hyperpage{14}
+  \item {main.cxx}
+    \subitem {main}, \hyperpage{14}
+    \subitem {Test1}, \hyperpage{14}
+
+  \indexspace
+
+  \item {n\_elem}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{12}
+
+  \indexspace
+
+  \item {print}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Tensor}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{10}
+  \item {Test1}
+    \subitem {main.cxx}, \hyperpage{14}
+
+  \indexspace
+
+  \item {uarr}
+    \subitem {Dexter::Tensor$<$ T, N $>$}, \hyperpage{10}
+
+\end{theindex}
